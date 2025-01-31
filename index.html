@@ -1,0 +1,151 @@
+<style>
+  a {
+    color: green;
+  }
+
+  a:hover {
+    color: black;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .navbar {
+    font-family: arial;
+    font-size: 2vh;
+    width: 20vh;
+    margin: 15vh 0vh 5vh auto;
+    padding: 0vh 0vh 0vh 5vh;
+  }
+
+  .text {
+    font-family: arial;
+    margin: 10vh auto 5vh 5vh;
+    padding: 0vh 5vh 0vh 0vh;
+    width: 60vh;
+
+  }
+
+  .chunk {
+    font-size: 2vh;
+    margin: 6vh 0vh 6vh 0vh;
+  }
+
+  .title {
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0vh 0vh;
+    transition: all 1s
+  }
+
+  .title:hover {
+    font-size: 5vh;
+    font-weight: bold;
+    margin: 0vh 0vh;
+    box-shadow: 2vh 2vh 0vh 0vh black;
+    border: .2vh solid black
+  }
+
+  .subtitle {
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin: 2vh 0vh;
+  }
+
+
+  .paragraph {
+    font-size: 2vh;
+    margin: 0vh 0vh 2vh 0vh;
+  }
+
+  .hole {
+    background-color: black;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 100%;
+    position: fixed;
+    right: 2vh;
+    top: 2vh;
+    z-index: 9999;
+    transition: all 2s
+  }
+
+  .hole:hover {
+    width: 98vw;
+    height: 98vh;
+    border-radius: 2%;
+  }
+</style>
+
+<body>
+
+  <div class="hole">
+  </div>
+
+  <div class="flex">
+
+    <div class="navbar">
+      <div class="subtitle">
+        Navigation
+      </div>
+
+      <div>
+        <a href="https://github.com/tchan1002" target="_blank"> Github </a>
+      </div>
+
+      <div>
+        <a href="https://chicagomaroon.com/staff_name/toby-chan/" target="_blank"> Maroon </a>
+      </div>
+
+      <div>
+        <a href="https://tchan0.substack.com/" target="_blank"> Substack </a>
+      </div>
+
+      <div>
+        .life
+      </div>
+
+      <div>
+        <a href="https://tchan1002.github.io/open-letter" target="_self"> .splurge </a>
+      </div>
+      <div>
+        <a href="https://tchan1002.github.io/intro" target="_self"> .home </a>
+      </div>
+
+
+    </div>
+
+    <div class="text">
+
+      <div class="title">
+        What is this place?
+      </div>
+      <div class="chunk">
+        <div class="paragraph">
+          When Henry Molaison died, they put his brain to the medical equivalent of a industrial meat slicer. His brain was indexed in a couple thousand MRI scans.
+          <br><br>
+          Henry had anterograde amnesia. His brain provides most of all we now know about memory.
+          <br><br>
+          _
+          <br><br>
+          We're keen to distinguish ourselves from AI. While we tend to differentiate ourselves by how we think, maybe the real difference is in what we consume.
+          <br><br>
+          For now, here's how our inputs differ:
+          <ul>
+            <li>our inputs are multimodal: visuals, audio, touch, taste, scent</li>
+            <li>our inputs are others: friends, family, acquaintances</li>
+            <li>our inputs are serendipitous</li>
+          </ul>
+          _
+          <br><br>
+          For the past three years, I've put down a journal entry every day about what I saw, heard, did, experienced, thought about.
+          Here's that data. Open source.
+
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</body>
